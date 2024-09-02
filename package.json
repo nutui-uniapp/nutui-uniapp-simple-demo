@@ -78,6 +78,6 @@
     "typescript": "^5.5.4",
     "unplugin-auto-import": "^0.18.2",
     "vite": "^5.4.2",
-    "vue-tsc": "2.0.26"
+    "vue-tsc": "^2.1.4"
   }
 }
