@@ -33,6 +33,7 @@ export default defineConfig({
         "pinia",
         {
           "nutui-uniapp/composables": [
+            "useNotify",
             "useToast"
           ]
         }

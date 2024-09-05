@@ -2,12 +2,20 @@
   <view class="container">
     <image class="logo" src="/static/logo.png"></image>
 
-    <nut-button type="primary" size="small">{{ text }}</nut-button>
+    <nut-button type="primary" size="small" @click="onClick">{{ text }}</nut-button>
+
+    <nut-notify></nut-notify>
   </view>
 </template>
 
 <script lang="ts" setup>
+const notify = useNotify();
+
 const text = ref("你好👋");
+
+function onClick() {
+  notify.primary("欢迎使用 nutui-uniapp");
+}
 </script>
 
 <style lang="scss" scoped>
