@@ -61,7 +61,7 @@
     "@dcloudio/uni-quickapp-webview": "3.0.0-4020420240722002",
     "nutui-uniapp": "^1.7.16",
     "pinia": "^2.2.2",
-    "vue": "^3.5.1"
+    "vue": "~3.4.38"
   },
   "devDependencies": {
     "@dcloudio/types": "^3.4.12",
@@ -71,7 +71,7 @@
     "@dcloudio/vite-plugin-uni": "3.0.0-4020420240722002",
     "@uni-helper/uni-app-types": "^1.0.0-alpha.3",
     "@uni-helper/vite-plugin-uni-components": "^0.1.0",
-    "@vue/runtime-core": "^3.5.1",
+    "@vue/runtime-core": "~3.4.38",
     "@vue/tsconfig": "^0.5.1",
     "miniprogram-api-typings": "^3.12.3",
     "sass": "^1.78.0",
