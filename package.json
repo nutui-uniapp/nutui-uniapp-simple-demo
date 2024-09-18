@@ -69,15 +69,15 @@
     "@dcloudio/uni-cli-shared": "3.0.0-4020420240722002",
     "@dcloudio/uni-stacktracey": "3.0.0-4020420240722002",
     "@dcloudio/vite-plugin-uni": "3.0.0-4020420240722002",
-    "@uni-helper/uni-app-types": "^1.0.0-alpha.3",
+    "@uni-helper/uni-app-types": "^1.0.0-alpha.4",
     "@uni-helper/vite-plugin-uni-components": "^0.1.0",
     "@vue/runtime-core": "~3.4.38",
     "@vue/tsconfig": "^0.5.1",
     "miniprogram-api-typings": "^3.12.3",
-    "sass": "^1.78.0",
-    "typescript": "^5.5.4",
-    "unplugin-auto-import": "^0.18.2",
-    "vite": "^5.4.3",
+    "sass": "^1.79.1",
+    "typescript": "~5.5.4",
+    "unplugin-auto-import": "^0.18.3",
+    "vite": "^5.4.6",
     "vue-tsc": "^2.1.6"
   }
 }
