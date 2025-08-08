@@ -9,13 +9,11 @@
     "types": [
       "vite/client",
       "@dcloudio/types",
-      "miniprogram-api-typings",
       "@uni-helper/uni-app-types",
+      "miniprogram-api-typings",
       "nutui-uniapp/global.d.ts"
     ],
-    "allowImportingTsExtensions": true,
-    "noEmit": true,
-    "sourceMap": true,
+    "allowJs": true,
     "isolatedModules": true
   },
   "vueCompilerOptions": {
@@ -24,10 +22,7 @@
     ]
   },
   "include": [
-    "src/**/*.ts",
-    "src/**/*.d.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue",
-    "types/**/*.d.ts"
+    "src/**/*",
+    "types/**/*"
   ]
 }

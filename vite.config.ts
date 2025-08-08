@@ -16,15 +16,6 @@ export default defineConfig({
     }
   },
   plugins: [
-    UniComponents({
-      dts: "types/components.d.ts",
-      dirs: ["src/components"],
-      directoryAsNamespace: true,
-      collapseSamePrefixes: true,
-      resolvers: [
-        NutResolver()
-      ]
-    }),
     AutoImport({
       dts: "types/auto-imports.d.ts",
       imports: [
@@ -39,7 +30,18 @@ export default defineConfig({
         }
       ]
     }),
-    // @ts-expect-error whatever
+    UniComponents({
+      dts: "types/components.d.ts",
+      dirs: [
+        "src/components"
+      ],
+      directoryAsNamespace: true,
+      collapseSamePrefixes: true,
+      resolvers: [
+        NutResolver()
+      ]
+    }),
+    // @ts-expect-error uni doesn't support esm
     UniApp.default()
   ]
 });
