@@ -13,8 +13,7 @@
       "miniprogram-api-typings",
       "nutui-uniapp/global.d.ts"
     ],
-    "allowJs": true,
-    "isolatedModules": true
+    "allowJs": true
   },
   "vueCompilerOptions": {
     "plugins": [
