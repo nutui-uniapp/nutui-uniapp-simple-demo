@@ -1,5 +1,3 @@
-overrides:
-  pinia: 2.2.4
 onlyBuiltDependencies:
   - core-js
   - esbuild
