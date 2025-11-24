@@ -1,8 +1,10 @@
 <template>
   <view class="container">
-    <image class="logo" src="/static/logo.png"></image>
+    <image class="logo" src="@/static/logo.png"></image>
 
-    <nut-button type="primary" size="small" @click="onClick">{{ text }}</nut-button>
+    <nut-button type="primary" size="small" @click="onClick()">
+      {{ text }}
+    </nut-button>
 
     <nut-notify></nut-notify>
   </view>

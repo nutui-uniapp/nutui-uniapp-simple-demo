@@ -58,10 +58,13 @@
     "appid": "",
     "setting": {
       "urlCheck": false,
-      "es6": true,
+      "es6": false,
+      "swc": true,
       "postcss": true,
       "minified": true,
-      "bigPackageSizeSupport": true
+      "minifyWXSS": true,
+      "minifyWXML": true,
+      "ignoreUploadUnusedFiles": true
     },
     "usingComponents": true,
     "optimization": {
